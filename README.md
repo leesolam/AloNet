@@ -2,10 +2,7 @@
 
 <B>Author: Solam Lee (solam@yonsei.ac.kr)</B>
 
-AloNet is a convolutional neural network based on U-Net that can identify the hair loss and the scalp area by analying clinical photograph. This model was developed for the automated calculation of the Severity of Alopecia Tools (SALT) score in assessment of patietns with alopecia areata.
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
-
+AloNet is a convolutional neural network based on U-Net that can identify the hair loss and the scalp area by analying clinical photograph. This model was developed for the automated calculation of the Severity of Alopecia Tools (SALT) score in assessment of patients with alopecia areata.
 
 This repository posts the program code and the relevant data used in the paper titled "Computer-Aided Measurement of the Severity of Alopecia Tool by Using Convolutional Neural Network for Hair Loss Segmentation".
 
@@ -15,4 +12,12 @@ To use AloNet program with your dataset, you should convert your dataset into nu
 
 We are now currently working on several postprocessing algorithms for AloNet to be available for general use. The Flask web application and its code will be made available publicly when the program is ready to use.
 
-For any inquiry on an adoption of AloNet for the instituion, co-work, or others, please contact the author.
+For inquiry on an institutinal adoption of AloNet, co-work, or any others, please contact the author.
+
+Some samples can be found in the "/Samples/" directory, including the followings:
+
+![Sample](/Samples/sample1.png)
+![Sample](/Samples/sample4.png)
+![Sample](/Samples/sample7.png)
+![Sample](/Samples/sample10.png)
+![Sample](/Samples/sample40.png)
