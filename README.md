@@ -1,6 +1,6 @@
 # AloNet
 
-<B>Author: Solam Lee, MD (solam@yonsei.ac.kr)</B>
+<B>Author: Solam Lee (solam@yonsei.ac.kr)</B>
 
 AloNet is a convolutional neural network based on U-Net that can identify the hair loss and the scalp area by analying clinical photograph. This model was developed for the automated calculation of the Severity of Alopecia Tools (SALT) score in assessment of patietns with alopecia areata.
 
