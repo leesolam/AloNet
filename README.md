@@ -2,6 +2,8 @@
 
 <B>Author: Solam Lee (solam@yonsei.ac.kr)</B>
 
+[![AloNet Demo Video](https://img.youtube.com/vi/J3WQLAJ9iew/0.jpg)](https://www.youtube.com/watch?v=J3WQLAJ9iew)
+
 AloNet is a convolutional neural network based on U-Net, which can identify hair loss and scalp area by analyzing a clinical photograph. This model was developed for automated calculation of the Severity of Alopecia Tools score to assess of patients with alopecia areata.
 
 This repository posts the program code and the relevant data used in the paper titled “Clinically Applicable Deep Learning Framework for Measuring the Extent of Hair Loss in Patients with Alopecia Areata.”
