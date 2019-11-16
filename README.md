@@ -7,7 +7,7 @@
 |AloNet Demo Video|
 |---|
 |[![AloNet Demo Video](https://img.youtube.com/vi/J3WQLAJ9iew/0.jpg)](https://www.youtube.com/watch?v=J3WQLAJ9iew)|
-| Please click the above preview image for playing the video |
+| Please click the above preview image for playing the demo video |
 
 
 <br><br>
