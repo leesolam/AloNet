@@ -36,6 +36,10 @@ Several samples can be found in the “/Samples/” directory, including the fol
 <br><Br>
 
 <h2><B>Deep Learning Method</B></h2>
+<br>
+
+![Sample](/Method.jpg)
+<br>
 
 AloNet consists of two major components: 1) the hair loss identifier, which classifies each pixel as “hair loss” or not, and 2) the scalp area identifier, which classifies each pixel as “scalp area” or not. Although these two identifiers were trained with different annotated inputs, they shared most of the network configurations. The scalp area identifier was required for the following reasons: 1) Calculation of the Severity of Alopecia Tool score is based on the extent of hair loss in the total scalp area; both variables were required. However, it would be very cumbersome if the user needs to manually prepare and input a hand-drawn scalp area for every image. Therefore, we sought to develop an end-to-end framework that can automatically extract both the scalp area and the hair loss area simultaneously from a single image input. 2) The hair loss identifier achieved better performance when it received the input image after being masked with the predicted output of the scalp identifier. Although our earliest model in which no masking was used also showed fair performance (Jaccard index of 0.935 for identifying hair loss), the current model showed better performance than the prototype.
 
