@@ -11,9 +11,7 @@
 
 
 <br>
-AloNet is a convolutional neural network based on U-Net, which can identify hair loss and scalp area by analyzing a clinical photograph. This model was developed for automated calculation of the Severity of Alopecia Tools score to assess of patients with alopecia areata.
-
-This repository posts the program code and the relevant data used in the paper titled “Clinically Applicable Deep Learning Framework for Measuring the Extent of Hair Loss in Patients with Alopecia Areata.”
+AloNet is a convolutional neural network based on U-Net, which can identify hair loss and scalp area by analyzing a clinical photograph. The model was developed for automated calculation of the Severity of Alopecia Tools score to assess of patients with alopecia areata. This repository posts the program code and the relevant data used in the paper titled “Clinically Applicable Deep Learning Framework for Measuring the Extent of Hair Loss in Patients with Alopecia Areata.”
 
 Along with the programs in the “/Program/” directory, a total of 2716 pixelwise annotations used to train the hair loss identifier (mask), and the hair loss identifier (target) can be find in the “/Data/” directory. However, please note that patients’ clinical photographs cannot be made publicly available because of strict privacy regulations.
 
@@ -39,7 +37,7 @@ Several samples can be found in the “/Samples/” directory, including the fol
 <br>
 
 ![Sample](/Method.jpg)
-<br>
+<br><br>
 
 AloNet consists of two major components: 1) the hair loss identifier, which classifies each pixel as “hair loss” or not, and 2) the scalp area identifier, which classifies each pixel as “scalp area” or not. Although these two identifiers were trained with different annotated inputs, they shared most of the network configurations. The scalp area identifier was required for the following reasons: 1) Calculation of the Severity of Alopecia Tool score is based on the extent of hair loss in the total scalp area; both variables were required. However, it would be very cumbersome if the user needs to manually prepare and input a hand-drawn scalp area for every image. Therefore, we sought to develop an end-to-end framework that can automatically extract both the scalp area and the hair loss area simultaneously from a single image input. 2) The hair loss identifier achieved better performance when it received the input image after being masked with the predicted output of the scalp identifier. Although our earliest model in which no masking was used also showed fair performance (Jaccard index of 0.935 for identifying hair loss), the current model showed better performance than the prototype.
 
