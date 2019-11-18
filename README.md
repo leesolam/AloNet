@@ -1,6 +1,6 @@
 # AloNet
 
-<B>Author: Solam Lee (solam@yonsei.ac.kr)</B>
+<B>Author: [Solam Lee](https://sites.google.com/yonsei.ac.kr/solam/) (solam@yonsei.ac.kr)</B>
 <br><br>
 
 
