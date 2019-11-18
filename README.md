@@ -10,15 +10,17 @@
 | Please click the above preview image for playing the demo video |
 
 
-<br>
-AloNet is a convolutional neural network based on U-Net, which can identify hair loss and scalp area by analyzing a clinical photograph. The model was developed for automated calculation of the Severity of Alopecia Tools score to assess of patients with alopecia areata. This repository posts the program code and the relevant data used in the paper titled “Clinically Applicable Deep Learning Framework for Measuring the Extent of Hair Loss in Patients with Alopecia Areata.”
-
+<br><br>
+AloNet is a convolutional neural network based on U-Net, which can identify hair loss and scalp area by analyzing a clinical photograph. The model was developed for automated calculation of the Severity of Alopecia Tools score to assess of patients with alopecia areata. 
+<br><br>
+This repository posts the program code and the relevant data used in the paper titled “Clinically Applicable Deep Learning Framework for Measuring the Extent of Hair Loss in Patients with Alopecia Areata.”
+<br><br>
 Along with the programs in the “/Program/” directory, a total of 2716 pixelwise annotations used to train the hair loss identifier (mask), and the hair loss identifier (target) can be find in the “/Data/” directory. However, please note that patients’ clinical photographs cannot be made publicly available because of strict privacy regulations.
-
+<br><br>
 Before using the AloNet program with your dataset, you should convert your dataset into numpy files. One clinical photograph (saved in .jpg with RGB format) is needed for each annotation for the scalp area (saved in .gif in black and white) and hair loss area (saved in .gif in black and white), respectively. Please make sure that they have the same image size or the conversion will fail.
-
+<br><br>
 We are currently working on several postprocessing algorithms for AloNet to be available for general use. The Flask web application and its code will be made available publicly when the program is ready to use.
-
+<br><br>
 For inquiries regarding institutional adoption of AloNet, co-work, or of any other nature, please contact the author.
 Several samples can be found in the “/Samples/” directory, including the following:
 <br><br>
