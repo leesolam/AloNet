@@ -21,8 +21,7 @@ Before using the AloNet program with your dataset, you should convert your datas
 <br><br>
 We are currently working on several postprocessing algorithms for AloNet to be available for general use. The Flask web application and its code will be made available publicly when the program is ready to use.
 <br><br>
-For inquiries regarding institutional adoption of AloNet, co-work, or of any other nature, please contact the author.
-Several samples can be found in the “/Samples/” directory, including the following:
+Sample outputs:
 <br><br>
 
 ![Sample](/Samples/sample1.png)
